@@ -1,0 +1,31 @@
+input {
+  display: none;
+}
+label {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(48, 83, 13);
+  border-radius: 40px;
+}
+label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  background-color: rgb(124, 161, 172);
+  border-left: 0px solid red;
+  border-bottom: 0px solid turquoise;
+  border: 2px solid teal;
+  transform: rotate(-45deg);
+  top: 10px;
+  left: 8px;
+  transition: height 1s, with 1s 1s;
+}
+input:checked + label::before {
+  width: 30px;
+  height: 15px;
+  background-color: tomato;
+}

@@ -1,0 +1,21 @@
+@keyframes abc {
+  from {
+    width: 0px;
+    height: 0;
+    background-color: transparent;
+  }
+  to {
+    width: 100%;
+    height: 500px;
+    background-color: tomato;
+  }
+}
+div {
+  width: 20px;
+  height: 20px;
+  background-color: violet;
+  animation-name: abc;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}

@@ -1,0 +1,21 @@
+.block1 {
+  float: left;
+  width: 20%;
+  background-color: yellowgreen;
+}
+.block2 {
+  float: right;
+  width: 80%;
+  background-color: violet;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.picture {
+  width: 20%;
+  float: left;
+  padding: 10px 10px;
+}

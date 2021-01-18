@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Form</title>
+    <link rel="stylesheet" href="styleform.css" />
+  </head>
+  <body>
+    <form action="/login" method="GET|POST|DELETE|PUT">
+      <!-- disable : dung thong bao trong thong tin nhap vao  -->
+      <input type="text" placeholder="Use name" value="centertaimen" disabled />
+      <input type="number" placeholder="Your Number" min="100" max="200" />
+      <input type="email" placeholder="Your email" />
+      <input type="checkbox" />
+      <input type="radio" />
+      <input type="range" />
+      <input type="url" />
+      <input type="file" />
+      <input type="submit" />
+      <input type="password" />
+      <fieldset>
+        <legend>Gioi Tinh</legend>
+        <label for=""
+          >Nam
+          <input type="radio" name="gender" value="male" />
+        </label>
+        <label for="fermale">
+          Nu
+          <input type="radio" id="fermale" name="gender" value="fermale" />
+        </label>
+        <label for="bede">Bede</label>
+        <input type="radio" id="bede" name="gender" value="bede" />
+      </fieldset>
+      <fieldset>
+        <legend>checkbox</legend>
+        <label for="b" id="chevk1"> aa</label>
+        <input type="checkbox" id="chevk1" />
+      </fieldset>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your write">
+Your quotes</textarea
+      >
+      <select name="" id="">
+        <option value="aaa">aaa</option>
+        <option value="bbb">bbb</option>
+        <option value="ccc">cccd</option>
+      </select>
+      <button type="button">Add to card</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

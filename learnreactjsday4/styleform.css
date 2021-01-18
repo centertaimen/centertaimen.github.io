@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+textarea {
+  resize: none;
+}
+input {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid blueviolet;
+}
+option {
+  background-color: saddlebrown;
+  font-size: 30px;
+  text-decoration: salmon;
+  padding: 10px;
+}
+
+input:focus {
+  border: 3px solid red;
+}
+input:valid {
+  border: 3px solid green;
+}
+input::placeholder {
+  font-size: 10px;
+  font-style: italic;
+}
+input:placeholder-shown {
+  font-size: 18px;
+  font-style: italic;
+}
+input:checked {
+  font-size: 50px;
+}

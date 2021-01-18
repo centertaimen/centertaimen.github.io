@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {   /*Tách nó ra ngoài được */
+  grid-area: header;
+  width: 100%;     /*Thieu Thieu */
+  background-color: forestgreen;
+  margin-bottom: 0px 0px 0px 0px;   /*Sai roi */
+  height: 30px;
+}
+
+.item2 {
+  background-color: chartreuse;
+  grid-area: item2;
+  margin: 0px 7.5px 7.5px 30px;
+}
+
+.item3 {
+  background-color: brown;
+  grid-area: item3;
+  margin: 0px 30px 7.5px 7.5px;
+}
+
+.item4 {
+  background-color: burlywood;
+  grid-area: item4;
+  margin: 7.5px 7.5px 0px 30px;
+}
+
+.item5 {
+  background-color: blueviolet;
+  grid-area: item5;
+  margin: 7.5px 30px 0px 7.5px;
+}
+
+.item6 {
+  grid-area: item6;
+  height: 80px;
+  background-color: deepskyblue;
+}
+
+.right {
+  grid-area: right;
+  background-color: firebrick;
+  margin: 0px 30px 30px 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header header header " "item2 item3 right " "item4 item5 right " "item6  item6  right";
+  background-color: deepskyblue;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 760px) {
+  .grid-container {
+    grid-template-areas: "header header " "item2 item3" "item4 item5" "right right";
+  }
+  .right {
+    margin: 30px 15px 0px 15px;
+  }
+  .item2 {
+    margin: 30px 7.5px 7.5px 15px;
+  }
+  .item3 {
+    margin: 30px 15px 7.5px 7.5px;
+  }
+  .item4 {
+    margin: 7.5px 7.5px 0px 15px;
+  }
+  .item5 {
+    margin: 7.5px 15px 0px 7.5px;
+  }
+  .item6{display: none; }
+}

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: calc(60%+30px);
+    margin: auto;
+    margin-top: 15px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    flex-basis: calc((100%-90)/3);
+    height: 200px;
+    background-color: burlywood;
+    margin: 15px;
+}

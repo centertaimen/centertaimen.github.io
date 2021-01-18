@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.grid-feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px 30px;
+}
+
+.grid-item {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: wheat;
+    border: 1px solid blue;
+}
+
+.container {
+    background-color: thistle;
+    padding: 30px 20% 0px;
+}

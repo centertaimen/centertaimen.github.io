@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.texcenter {
+    text-align: center;
+}
+
+.header {
+    grid-area: header;
+    background-color: coral;
+    height: 30px;
+}
+
+.item2 {
+    grid-area: item2;
+    background-color: cornflowerblue;
+    margin-top: 0px;
+}
+
+.item3 {
+    grid-area: item3;
+    background-color: cyan;
+}
+
+.item4 {
+    grid-area: item4;
+    background-color: darkgoldenrod;
+}
+
+.item5 {
+    grid-area: item5;
+    background-color: darkorchid;
+}
+
+.item6 {
+    grid-area: item6;
+    background-color: chocolate;
+}
+
+.slide {
+    grid-area: slide;
+    background-color: deeppink;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header ' 'item2 item3 slide ' 'item4 item5 slide' 'item6 item6 slide';
+    grid-gap: 15px;
+    background-color: chartreuse;
+    /* padding: 10px; */
+}

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
+.logo1 {
+  float: left;
+}
+
+li {
+  display: inline-block;
+}
+.menu-name {
+  padding: 10px;
+}
+.menuname .form-login {
+  float: right;
+}
+.menuname a {
+  padding: 15px;
+}
+input {
+  border-radius: 6px;
+  width: 330px;
+  font-size: 17px;
+  padding: 14px;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}

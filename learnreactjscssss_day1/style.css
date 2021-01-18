@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.box1 {
+    display: grid;
+    grid-gap: 30px 30px 30px 30px;
+    grid-template-columns: auto auto auto;
+    background-color: burlywood;
+    padding: 30px 30px 30px 30px;
+}
+
+.sp1 {
+    margin: 30px 30px 30px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: blue;
+    font-size: 80px;
+    text-align: center;
+}

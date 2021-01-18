@@ -1,0 +1,36 @@
+h1 {
+  color: blue;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 400;
+  /* font-display: 50px; */
+  text-align: center;
+  /* display: block; */
+  /* height: min-content; */
+  /* text-decoration: brown; */
+  text-shadow: coral;
+  text-transform: capitalize;
+}
+ul {
+  color: brown;
+  text-align: start;
+  text-transform: capitalize;
+  text-decoration-style: dotted;
+}
+
+h2,
+h3 {
+  color: chartreuse;
+  text-decoration-style: dotted;
+}
+p {
+  color: blueviolet;
+  font-style: italic;
+}
+.only_c {
+  font-size: 39px;
+  color: aqua;
+}
+#phdau {
+  color: black;
+}

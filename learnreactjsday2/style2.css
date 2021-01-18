@@ -1,0 +1,32 @@
+body {
+  color: darkgoldenrod;
+}
+p {
+  font-size: 20px;
+  line-height: 35px;
+}
+ul {
+  list-style: lower-alpha;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: auto;
+}
+
+.image1 {
+  text-align: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+  image-rendering: auto;
+}
+header {
+  background-color: blueviolet;
+}
+main {
+  background-image: url(1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

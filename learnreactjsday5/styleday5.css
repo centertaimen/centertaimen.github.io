@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0px;
+  padding: 0px; */
+}
+/* div.cl1 {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  top: 100px;
+  right: 100px;
+  height: 300px;
+}
+div.cl2 {
+  background-color: chartreuse;
+  height: 500px;}
+
+  .sticky {
+      position: sticky;
+    background-color: red;
+    height: 100px;
+    width: 50px;
+  }
+}
+div.cl3 {
+  background-color: chocolate;
+  height: 500px;
+} */
+
+/* relative : Thuong chi dung 2 thuoc tinh 
+Fixded : Tinh theo giao dien cua trinh duyet
+Static : Mac dinh cua trinh duyet 
+absolute: Can theo Master boc ben ngoai.\
+dung ket hop relative
+ */
+
+div.group {
+  position: relative;
+  margin-top: 20px;
+}
+.group input {
+  height: 32px;
+  padding: 8px;
+  back
+}
+.group label {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  font-size: 16px;
+  color: gray;
+}
+.group input:focus + label {
+  top: -20px;
+  left: 0;
+  color: black;
+}
+input::placeholder {
+  opacity: 0;
+}
+input:not(:placeholder-shown) + label {
+  top: -20px;
+  left: 0;
+  color: black;
+}
+.form-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+#signup:checked + .form-wrapper {
+  display: block;
+}
+.form-signup {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

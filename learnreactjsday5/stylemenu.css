@@ -1,0 +1,33 @@
+.menu-name {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+.menu {
+  list-style: none;
+}
+.menu-link {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 10px 0;
+}
+.sub-menu {
+  display: none;
+  list-style: none;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  box-shadow: violet;
+}
+.menu-item:hover .sub-menu {
+  display: block;
+}
+.sub-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.sub-link {
+  text-decoration: none;
+  color: black;
+}

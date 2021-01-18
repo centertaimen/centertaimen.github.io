@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0px;
+  max-width: 100%;
+}
+table {
+  border-collapse: collapse;
+  caption-side: bottom;
+  /* Mo ta cua Table */
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid red;
+}
+th,
+td {
+  width: 200px;
+  padding: 10px;
+}
+tbody tr:nth-child(2n + 2) {
+  background-color: rosybrown;
+}
